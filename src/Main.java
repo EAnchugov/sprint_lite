@@ -16,7 +16,7 @@ public class Main {
             } else if (command == 2) {
 
             } else if (command == 3){
-                stepsGoal = stepTracker.setGoal();
+                stepsGoal = stepTracker.setGoal();//ууу
             }
             else if (command == 0) {
                 System.out.println("Выход");

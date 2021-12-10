@@ -18,7 +18,7 @@ public class StepTracker {
         String month = scanner.next();
         System.out.println("Введите число");
         int day = scanner.nextInt();
-        System.out.println("Введите количество шагов");
+        System.out.println("Введите количество шагов");///уууу
         int steps = scanner.nextInt();
 
         if (stepInfo.containsKey(month)) {//проверка наличия месяца
