@@ -8,6 +8,7 @@ public class StepTracker {
     StepTracker (){
     stepInfo = new HashMap<>();
     }
+    Scanner scanner = new Scanner(System.in);
 
 
     void addSteps(){
@@ -38,8 +39,12 @@ public class StepTracker {
         }
 
     }
-
-
+    int setGoal(){
+        System.out.println("Введите целевое количество шагов");
+        int goal= scanner.nextInt();
+        System.out.println("Целевое количество шагов в день теперь " + goal);
+        return goal;
+    }
 
 
 
