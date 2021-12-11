@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int stepsGoal = 0;
+
 
         StepTracker stepTracker = new StepTracker();
 
@@ -14,9 +14,9 @@ public class Main {
             if (command == 1) {
                 stepTracker.addSteps();
             } else if (command == 2) {
-               // stepTracker.getReport();
+                stepTracker.getReport();
             } else if (command == 3){
-                stepsGoal = stepTracker.setGoal();//ууу
+               stepTracker.setGoal();//ууу
             }
             else if (command == 0) {
                 System.out.println("Выход");
