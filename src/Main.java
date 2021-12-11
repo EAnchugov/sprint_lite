@@ -14,7 +14,7 @@ public class Main {
             if (command == 1) {
                 stepTracker.addSteps();
             } else if (command == 2) {
-
+               // stepTracker.getReport();
             } else if (command == 3){
                 stepsGoal = stepTracker.setGoal();//ууу
             }
