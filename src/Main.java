@@ -35,17 +35,4 @@ public class Main {
         System.out.println("3. Изменить цель по количеству шагов в день;");
         System.out.println("0. Выйти из приложения.");
     }
- /*   public static void  addsteps(){
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Введите название месяца");
-        String month = scanner.next();
-        System.out.println("Введите число");
-        int day = scanner.nextInt();
-        System.out.println("Введите количество шагов");
-        int steps = scanner.nextInt();
-
-
-    }*/
-
 }
